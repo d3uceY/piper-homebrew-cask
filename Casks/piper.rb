@@ -4,21 +4,21 @@ cask "piper" do
 
   on_macos do
     on_arm do
-      sha256 "ca9aead4a80420574131d3ff14ad14aaebf4e68814686d9ccd9345965eee932a"
+      sha256 "bcc0db7c2effc42e262e6359dafd05d2fa95073d68ff6233b7ede1466bfcd310"
       url "https://github.com/d3uceY/Piper/releases/download/v#{version}/piper_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1a279dc0ab5a43265200dfe9ece55a2ff9560bcf02124c744fc4d75868c92572"
+      sha256 "d7923b09dc986fd334205e4cda91e55171d5e390e531df1b3d0dd522954ed310"
       url "https://github.com/d3uceY/Piper/releases/download/v#{version}/piper_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "c7541819dd00dc2fcb718564b408943a3452ef279f309611bd306579859afc8d"
+      sha256 "056181737413c41e7702eb4083ea8bc9a0b08831766ca47169fc33f19b742d08"
       url "https://github.com/d3uceY/Piper/releases/download/v#{version}/piper_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1cbd644ba72de853dedaa281eec65006816d49ecdd10db37dc808af590b55659"
+      sha256 "75ce869db973e7c467d94d9ab2d92434bc33790827ff4fc0f43339292a3db778"
       url "https://github.com/d3uceY/Piper/releases/download/v#{version}/piper_Linux_x86_64.tar.gz"
     end
   end
